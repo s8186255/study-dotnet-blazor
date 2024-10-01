@@ -1,0 +1,63 @@
+# 忽略编译生成的文件和目录
+bin/
+obj/
+Debug*/
+Release*/
+x64/
+x86/
+*.pdb
+*.idb
+*.svclog
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# 忽略用户特定的文件
+*.userprefs
+
+# 忽略 NuGet 包文件夹
+packages/
+
+# 忽略 build 目录
+build/
+
+# 忽略项目的依赖缓存目录
+.nuget/
+
+# 忽略数据库文件
+*.db
+
+# 忽略备份和日志文件
+*.log
+*.bak
+
+# 忽略 OS 生成的文件 #
+.DS_Store
+Thumbs.db
+
+# 忽略编辑器和 IDE 的配置文件
+.vs/
+# 除非需要，通常不忽略 .vscode/ 目录，因为它可能包含共享的配置
+# .vscode/
+
+# 忽略其他 IDE 的配置文件
+.idea/
+*.sln.DotSettings.user
+
+# 忽略 Windows 系统文件
+Desktop.ini
+
+# 忽略 node_modules，除非你在项目中使用 npm 包
+node_modules/
+
+# 忽略 dotnet 测试覆盖率报告
+coverage/
+
+# 忽略 dotnet 运行时缓存
+.local/
+.store/
+.project.lock.json
+
+# 忽略 Web 项目中的临时文件
+*.swp
